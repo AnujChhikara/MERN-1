@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Dependency directories
+/dist/
+/out/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
