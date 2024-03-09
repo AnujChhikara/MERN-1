@@ -8,6 +8,7 @@ import Service from './Components/Pages/Service';
 import Login from './Components/Pages/Login'
 import Register from './Components/Pages/Register'
 import PageNotFound from './Components/Common/404Page';
+import Logout from './Components/Pages/Logout';
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     {path: 'service', element: <Service/>},
     {path: 'login', element: <Login/>},
     {path: 'register', element: <Register/>},
+    {path: 'logout', element: <Logout/>}
     
 
   ]},

@@ -72,5 +72,21 @@ const home = async (req,res) =>{
     }
  }
 
+//  sending user data
 
-module.exports = {home, register, login}
+const user = async (req,res) => {
+      
+try {
+   const userData = req.user
+  
+
+   return res.status(200).json({msg: userData})
+   
+} catch (error) {
+   console.log(`Error from user route ${error}`)
+   
+}
+}
+
+
+module.exports = {home, register, login, user}

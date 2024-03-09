@@ -12,7 +12,7 @@ function Login() {
 
   const [error, setError] = useState()
 
-  const storeTokeninLS = useAuth()
+  const {storeTokeninLS} = useAuth()
   const navigate = useNavigate()
 
   // handling form submit
